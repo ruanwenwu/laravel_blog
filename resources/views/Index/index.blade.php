@@ -6,7 +6,7 @@
 -->
 <head>
     <meta charset="utf-8" />
-    <title>首页 - 廖雪峰的官方网站</title>
+    <title>首页 - 廖雪峰的官方网站d</title>
     <meta name="viewport" content="width=device-width" />
     <meta name="keywords" content="javascript,node,jquery,git,python,java,sql,linux,ios,android,教程,软件,编程,开发,运维,云计算,网络,互联网" />
     <meta name="description" content="研究互联网产品和技术，提供原创中文精品教程" />
