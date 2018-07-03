@@ -3,16 +3,26 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Category;
 
 class IndexController extends Controller
 {
-    //Ê×Ò³
     public function Index(){
-        return view("Index.index");
+        $output = array(
+            "title" =>  "xxf",
+            "keywords"=>"ssdfsd",
+        );
+        return view('Index.index',$output);
+    }
+
+    public function Store(){
+        $category = new Category();
+        $category->name = "è¯»ä¹¦";
+        $category->save();
+        echo 3;die;
     }
     
     public function Test(){
-        echo $id;
-        die;
+        echo 3;die;
     }
 }
