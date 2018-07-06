@@ -12,6 +12,10 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call(ArticlesTableSeeder::class);
+        $this->call(RecommendsTableSeeder::class);
+        $this->call(HotsTableSeeder::class);
+        $this->call(UsersTableSeeder::class);
+        $this->call(CommentsSeeder::class);
         DB::table('categories')->insert([
             'name' => "读书",
             'userid' => 1,
